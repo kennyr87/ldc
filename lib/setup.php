@@ -84,8 +84,6 @@ function display_sidebar() {
     // The sidebar will NOT be displayed if ANY of the following return true.
     // @link https://codex.wordpress.org/Conditional_Tags
     is_404(),
-    is_front_page(),
-    is_page(),
   ]);
 
   return apply_filters('sage/display_sidebar', $display);

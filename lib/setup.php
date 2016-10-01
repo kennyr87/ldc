@@ -93,10 +93,6 @@ function display_sidebar() {
  * Theme assets
  */
 function assets() {
-
-  //Dequeue person contact info CSS
-  wp_dequeue_style ( 'jsjr-pci-wp-css' );
-
   wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
 
   if (is_single() && comments_open() && get_option('thread_comments')) {

@@ -11,7 +11,7 @@
             'theme_location'  => 'primary_navigation',
             'container'       => 'div',
             'depth'           => 2,
-            'container_class' => 'collapse navbar-collapse',
+            'container_class' => 'collapse navbar-collapse pull-right',
             'menu_class'      => 'nav navbar-nav',
             'walker'          => new wp_bootstrap_navwalker() )
           );

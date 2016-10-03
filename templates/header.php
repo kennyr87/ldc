@@ -2,8 +2,9 @@
   <nav class="navbar navbar-default">
     <div class="container">
       <div class="navbar-header">
-      <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>">
-      <span class='ldc-header-name'>Lindsey Cameron</span></a><span class='ldc-header-school'>Stephen M. Ross School of Business</span>
+      <span class="navbar-brand">
+      <span class='ldc-header-name'>Lindsey Cameron</span><span class='ldc-header-school'>Stephen M. Ross School of Business</span>
+      </span>
       </div>
         <?php
         if (has_nav_menu('primary_navigation')) :

@@ -3,7 +3,9 @@
     <div class="container">
       <div class="navbar-header">
       <span class="navbar-brand">
-      <span class='ldc-header-name'>Lindsey Cameron</span><span class='ldc-header-school'>Stephen M. Ross School of Business</span>
+        <img class='ldc-nav-brand' src='<?php echo get_template_directory_uri()?>/dist/images/ross_bug.png' >
+        <span class='ldc-header-name'>Lindsey Cameron</span>
+        <span class='ldc-header-school'>Stephen M. Ross School of Business</span>
       </span>
       </div>
         <?php

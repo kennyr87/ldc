@@ -1,11 +1,27 @@
 .navbar-brand {
+  height: unset;
   > img.ldc-nav-brand {
     display: inline;
   }
+  > .ldc-header-school {
+
+  }
 }
 
-.navbar-nav {
-  > li {
-    margin-top: 30px;
+.navbar-brand {
+  .navbar > .container &,
+  .navbar > .container-fluid & {
+    margin-left: 0px;
   }
+}
+
+.navbar-collapse {
+  @media screen and (min-width: $screen-sm-min) {
+    padding-left: 0px;
+  }
+}
+
+.navbar-toggle {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }

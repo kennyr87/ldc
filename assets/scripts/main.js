@@ -28,6 +28,7 @@
     'home': {
       init: function() {
         // JavaScript to be fired on the home page
+        $( ".widget_featuredimagewidget > img" ).addClass( 'img-responsive' );
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS

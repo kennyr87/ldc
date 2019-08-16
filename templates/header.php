@@ -13,7 +13,6 @@
         <a href='<?php echo get_home_url(); ?>'>
         <span class="navbar-brand">
           <span class='ldc-header-name'>Lindsey Cameron</span>
-          <span class='ldc-header-school hidden-xs'>Assistant Professor of Management</span>
         </span>
         </a>
         </div>

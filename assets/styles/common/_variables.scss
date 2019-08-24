@@ -6,20 +6,37 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    3;
 
 // Colors
-$brand-primary:         #27ae60;
+$brand-primary:         #01256e !default;
+$gray-base:             #131315 !default;
+$light-base:            #e5e5e5;
 
 //** Padding between columns. Gets divided in half for the left and right.
 $grid-gutter-width:           30px !default;
 
 // Large screen / wide desktop
 $container-large-desktop:      (1010px + $grid-gutter-width) !default;
+// Medium screen / desktop
+$screen-md-min:              992px !default;
 
 // Navbar
-$navbar-default-bg:                       #00274c !default;
-$navbar-default-link-color:               #e5e5e5 !default;
+$navbar-default-bg:                       $brand-primary;
+$navbar-default-link-color:               $light-base;
 $navbar-default-link-hover-color:         darken($navbar-default-link-color, 10%) !default;
 $navbar-default-link-active-color:        darken($navbar-default-link-color, 5%) !default;
 $navbar-default-link-active-bg:           $navbar-default-bg;
 $navbar-border-radius:                    0 !default;
-$navbar-height:                           115px !default;
+$navbar-height:                           75px !default;
 $navbar-padding-vertical:                 15px  !default;
+
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint:     $screen-md-min !default;
+
+//== Typography
+$font-family-sans-serif: "Open Sans", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       "Domine", Georgia, "Times New Roman", Times, serif !default;
+$font-size-base:           16px;
+
+// layout
+$content-max-width: 700px;
+

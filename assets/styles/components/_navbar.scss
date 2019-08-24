@@ -1,10 +1,12 @@
 .navbar-brand {
+  font-family: $font-family-serif;
+  font-size: $font-size-base + 2;
+  @media only screen and (min-width: $screen-sm-min) {
+    font-size: $font-size-base + 8;
+  }
   height: unset;
   > img.ldc-nav-brand {
     display: inline;
-  }
-  > .ldc-header-school {
-
   }
 }
 
@@ -24,4 +26,8 @@
 .navbar-toggle {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+#ldc-primary-nav {
+  font-size: 16px;
 }

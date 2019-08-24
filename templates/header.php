@@ -12,19 +12,17 @@
         </button>
         <a href='<?php echo get_home_url(); ?>'>
         <span class="navbar-brand">
-          <span class='ldc-header-name'>Lindsey Cameron</span>
+          <span class='ldc-header-name'>Lindsey D. Cameron</span>
         </span>
         </a>
         </div>
-      </div>
-      <div class='col-xs-12'>
         <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu( array(
             'theme_location'  => 'primary_navigation',
             'container'       => 'div',
             'depth'           => 2,
-            'container_class' => 'collapse navbar-collapse pull-left',
+            'container_class' => 'collapse navbar-collapse pull-right',
             'menu_class'      => 'nav navbar-nav',
             'container_id'    => 'ldc-primary-nav',
             'walker'          => new wp_bootstrap_navwalker() )

@@ -1,1 +1,21 @@
 
+body {
+    font-family: $font-family-sans-serif;
+    font-size: $font-size-base;
+    @media only screen and (min-width: $screen-sm-min) {
+      font-size: $font-size-base + 2;
+    }
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: $screen-sm-min) {
+  article p, article ul, article ol, article h2, article h3, 
+  article h4,	article h5, article h6 {
+	  max-width: $content-max-width;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

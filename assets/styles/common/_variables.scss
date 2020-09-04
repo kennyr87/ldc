@@ -28,6 +28,24 @@ $navbar-border-radius:                    0 !default;
 $navbar-height:                           75px !default;
 $navbar-padding-vertical:                 15px  !default;
 
+//== Dropdowns
+//
+//## Dropdown menu container and contents.
+
+//** Background for the dropdown menu.
+$dropdown-bg: $brand-primary;
+
+//** Dropdown link text color.
+$dropdown-link-color: $navbar-default-link-color;
+//** Hover color for dropdown links.
+$dropdown-link-hover-color: $navbar-default-link-hover-color;
+
+//** Active dropdown menu item text color.
+$dropdown-link-active-color: $navbar-default-link-active-color;
+
+//** Active dropdown menu item background color.
+$dropdown-link-active-bg: $navbar-default-link-active-bg;
+
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
 $grid-float-breakpoint:     $screen-md-min !default;

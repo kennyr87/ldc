@@ -31,3 +31,23 @@
 #ldc-primary-nav {
   font-size: $font-size-base + 2;
 }
+
+.navbar-nav {
+
+  // The dropdown menu (ul)
+  .dropdown-menu {
+    border-width: 0 1px 1px;
+    border-style: solid;
+    border-color: $dropdown-border;
+    // Links within the dropdown menu
+    > li > a {
+      &:hover,
+      &:focus {
+        background-color: inherit;
+        box-shadow: inset 0 1px 3px darken($dropdown-bg, 50%);
+        @include gradient-vertical($start-color: darken($dropdown-bg, 10%), $end-color: $dropdown-bg);
+        border-color: darken($dropdown-bg, 10%);
+      }
+    }
+  }
+}

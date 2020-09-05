@@ -22,7 +22,7 @@
             'theme_location'  => 'primary_navigation',
             'container'       => 'div',
             'depth'           => 2,
-            'container_class' => 'collapse navbar-collapse pull-right',
+            'container_class' => 'collapse navbar-collapse',
             'menu_class'      => 'nav navbar-nav',
             'container_id'    => 'ldc-primary-nav',
             'walker'          => new wp_bootstrap_navwalker() )

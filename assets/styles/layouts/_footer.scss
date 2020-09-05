@@ -1,0 +1,18 @@
+.footer {
+    background-color: $brand-primary;
+    min-height: 75px;
+    margin-top: 15px;
+}
+
+.footer__text {
+    color: $light-base;
+    text-align: center;
+    padding-top: 15px;
+    > a {
+            color: darken($color: $light-base, $amount: 10%);
+            &:hover,
+            &:focus {
+                color: darken($color: $light-base, $amount: 20%);
+        }
+    }
+}
